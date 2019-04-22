@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Flower App</title>
+    <title>Flower App</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/result.css')}}">    
 </head>
 <body>
-	<h2>Prediction</h2>
-    <p>Flower Name: {{ name }}</p>
-	<p>Probs: {{ probs }}</p>
+    <div class="result">
+        <h2>Prediction</h2>
+        <p>Flower Name: {{ name }}</p>
+        <p>Probs: {{ probs }}</p>
+    </div>
 </body>
 </html>

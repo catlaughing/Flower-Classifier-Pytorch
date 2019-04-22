@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    background-image: 'image_06743.jpg';
+  }
+  
+.result {
+    background-color: #ffffff;
+    width: 600px;
+    top: 50%;
+    margin: 150px auto;
+    padding: 20px;
+    /* top:200px; */
+  }

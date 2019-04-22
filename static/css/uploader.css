@@ -6,8 +6,10 @@ body {
 .file-upload {
   background-color: #ffffff;
   width: 600px;
-  margin: 0 auto;
+  top: 50%;
+  margin: 150px auto;
   padding: 20px;
+  /* top:200px; */
 }
 
 .file-upload-btn {
