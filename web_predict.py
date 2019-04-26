@@ -69,7 +69,7 @@ def load_model():
 
     hidden_size = 1024
 
-    model = models.resnet101(pretrained=True)
+    model = models.resnet101(pretrained=True)  
 
     n_features = model.fc.in_features
     classifier = nn.Sequential(OrderedDict([('fc1',nn.Linear(n_features,hidden_size)),

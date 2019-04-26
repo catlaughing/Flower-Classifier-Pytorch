@@ -1,10 +1,11 @@
 body {
   font-family: sans-serif;
-  background-image: 'image_06743.jpg';
+  background-image: url('/static/img/background.png');
 }
 
 .file-upload {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  /* background-image: ;  */
   width: 600px;
   top: 50%;
   margin: 150px auto;
@@ -16,11 +17,11 @@ body {
   width: 100%;
   margin: 0;
   color: #fff;
-  background: #1FB264;
+  background:black;
   border: none;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #15824B;
+  /* border-bottom: 4px solid bla; */
   transition: all .2s ease;
   outline: none;
   text-transform: uppercase;
@@ -28,7 +29,7 @@ body {
 }
 
 .file-upload-btn:hover {
-  background: #1AA059;
+  background: red;
   color: #ffffff;
   transition: all .2s ease;
   cursor: pointer;

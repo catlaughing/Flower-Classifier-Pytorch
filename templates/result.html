@@ -3,9 +3,13 @@
 <head>
     <title>Flower App</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='css/result.css')}}">    
+    <!-- <link rel="stylesheet" href="{{ url_for('static',filename='css/uploader.css')}}">  -->
+<link rel="stylesheet" href="{{ url_for('static',filename='css/uploader.css')}}">
+
 </head>
 <body>
     <div class="result">
+        <img src={{image_file}}>
         <h2>Prediction</h2>
         <p>Flower Name: {{ name }}</p>
         <p>Probs: {{ probs }}</p>
